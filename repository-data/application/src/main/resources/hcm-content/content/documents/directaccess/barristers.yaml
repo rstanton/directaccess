@@ -1,0 +1,7 @@
+/content/documents/directaccess/barristers:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: ee7e09e7-bfb5-4199-a047-7cb171639f66
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: d7d6ea91-a760-4552-92cb-88c92f59cb5b
+  hippotranslation:locale: en

@@ -1,0 +1,88 @@
+definitions:
+  config:
+    /hippo:namespaces/directaccess/Chambers:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 30ce05a7-a949-4cc6-8342-e505cfcb9817
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9abf12d7-3a34-46bb-9f30-5f9e22a8dc34
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: fd7e2026-3a09-4e1d-8799-5e67a278ef70
+          hipposysedit:node: true
+          hipposysedit:supertype: ['directaccess:basedocument', 'hippostd:relaxed',
+            'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/directaccess/nt/1.0
+          /name:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:name
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [non-empty, required]
+          /Address:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:Address
+            hipposysedit:primary: false
+            hipposysedit:type: directaccess:Address
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: directaccess:Chambers
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:mixinTypes: ['mix:referenceable']
+          directaccess:name: ''
+          jcr:uuid: 97c420e1-9a0f-45c9-8917-dacdc09192b8
+          hippostdpubwf:lastModificationDate: 2018-06-26T21:02:36.561+01:00
+          hippostdpubwf:creationDate: 2018-06-26T21:02:36.562+01:00
+          /directaccess:Address:
+            jcr:primaryType: directaccess:Address
+            directaccess:Street: ''
+            directaccess:Town: ''
+            directaccess:buildingname: ''
+            directaccess:buildingnumber: ''
+            directaccess:country: ''
+            directaccess:county: ''
+            directaccess:latlong: ''
+            directaccess:postcode: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /name:
+            jcr:primaryType: frontend:plugin
+            caption: Chambers Name
+            field: name
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /Address:
+            jcr:primaryType: frontend:plugin
+            caption: Address
+            field: Address
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

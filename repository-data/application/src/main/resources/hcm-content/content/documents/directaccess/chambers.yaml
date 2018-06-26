@@ -1,0 +1,7 @@
+/content/documents/directaccess/chambers:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b99370e2-6d2a-41cd-b196-4d1cbcaded29
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: fca629d4-a36a-4dfc-9c7f-a6efcd5ea8ba
+  hippotranslation:locale: en

@@ -1,0 +1,5 @@
+group: 
+  name: directaccess
+  after: hippo-cms
+project: directaccess
+module: directaccess-repository-data-webfiles

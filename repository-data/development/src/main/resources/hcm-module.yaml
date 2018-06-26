@@ -1,0 +1,7 @@
+group: 
+  name: directaccess
+  after: hippo-cms
+project: directaccess
+module: 
+  name: directaccess-repository-data-development
+  after: directaccess-repository-data-application

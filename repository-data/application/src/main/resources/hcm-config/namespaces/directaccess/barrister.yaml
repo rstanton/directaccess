@@ -1,0 +1,209 @@
+definitions:
+  config:
+    /hippo:namespaces/directaccess/barrister:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 005a59a5-88bf-4efd-b62f-a5c7d30f52de
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 16f8ce4b-8bd0-4324-b8b8-aa5ed38f3fb0
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: d3cd7110-ca9f-4f99-a01d-19f581936403
+          hipposysedit:node: true
+          hipposysedit:supertype: ['directaccess:basedocument', 'hippostd:relaxed',
+            'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/directaccess/nt/1.0
+          /imagelink:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:imagelink
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
+            hipposysedit:validators: [required]
+          /name:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:name
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [non-empty, required]
+          /overview:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:overview
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+            hipposysedit:validators: [required]
+          /calendardate:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:calldate
+            hipposysedit:primary: false
+            hipposysedit:type: CalendarDate
+            hipposysedit:validators: [required]
+          /Specialisms:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:Specialisms
+            hipposysedit:primary: false
+            hipposysedit:type: directaccess:Specialisms
+            hipposysedit:validators: [required]
+          /expertise:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:expertise
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /Recommendations:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:Recommendations
+            hipposysedit:primary: false
+            hipposysedit:type: directaccess:Recommendations
+          /chambers:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:chambers
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
+            hipposysedit:validators: [required]
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: directaccess:barrister
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:mixinTypes: ['mix:referenceable']
+          directaccess:name: ''
+          directaccess:calldate: 0001-01-01T12:00:00Z
+          jcr:uuid: fa37d7c0-e1d2-4cdc-851c-637cd40d93e4
+          hippostdpubwf:lastModificationDate: 2018-06-26T19:59:22.612+01:00
+          hippostdpubwf:creationDate: 2018-06-26T19:59:22.612+01:00
+          /directaccess:imagelink:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /directaccess:overview:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /directaccess:Specialisms:
+            jcr:primaryType: directaccess:Specialisms
+            directaccess:specialism: ''
+          /directaccess:expertise:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /directaccess:Recommendations:
+            jcr:primaryType: directaccess:Recommendations
+            directaccess:date: 0001-01-01T12:00:00Z
+            directaccess:extract: ''
+            directaccess:publication: ''
+          /directaccess:chambers:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /name:
+            jcr:primaryType: frontend:plugin
+            caption: Barrister's Name
+            field: name
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /calldate:
+            jcr:primaryType: frontend:plugin
+            caption: Call Date
+            field: calendardate
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /imagelink:
+            jcr:primaryType: frontend:plugin
+            caption: Profile Image
+            field: imagelink
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /overview:
+            jcr:primaryType: frontend:plugin
+            caption: Overview
+            field: overview
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /expertise:
+            jcr:primaryType: frontend:plugin
+            caption: Expertise
+            field: expertise
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /Specialisms:
+            jcr:primaryType: frontend:plugin
+            caption: Specialisms
+            field: Specialisms
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /Recommendations:
+            jcr:primaryType: frontend:plugin
+            caption: Recommendations
+            field: Recommendations
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /chambers:
+            jcr:primaryType: frontend:plugin
+            caption: Chambers
+            field: chambers
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              base.path: /content/documents/directaccess/chambers

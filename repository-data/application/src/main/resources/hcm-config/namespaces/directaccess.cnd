@@ -1,0 +1,27 @@
+<'directaccess'='http://www.onehippo.org/directaccess/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[directaccess:Address] > hippo:compound, hippostd:relaxed
+  orderable
+
+[directaccess:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[directaccess:Chambers] > directaccess:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[directaccess:Recommendation] > directaccess:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[directaccess:Recommendations] > hippo:compound, hippostd:relaxed
+  orderable
+
+[directaccess:Specialisms] > hippo:compound, hippostd:relaxed
+  orderable
+
+[directaccess:barrister] > directaccess:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+

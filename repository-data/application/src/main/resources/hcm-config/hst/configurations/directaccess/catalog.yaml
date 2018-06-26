@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/directaccess/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /directaccess-catalog:
+        jcr:primaryType: hst:containeritempackage

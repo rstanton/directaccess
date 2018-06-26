@@ -1,0 +1,32 @@
+/content/documents/directaccess/resources:
+  .meta:order-before: chambers
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 656770dc-11dc-4e29-b738-92d933669267
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4cbd2c92-e91c-4c10-a652-fdcc06c5a254
+  hippotranslation:locale: en
+  /specialisms:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 20690ba1-d440-40a6-bacb-2bfbfe0f0339
+    hippo:name: Specialisms
+    /specialisms:
+      jcr:primaryType: selection:valuelist
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 6f6543e2-cc11-40ae-91f8-ef8420151a55
+      hippo:availability: [live, preview]
+      hippotranslation:id: ad3c7207-00f5-465a-912e-7236ae4b585e
+      hippotranslation:locale: en
+      /selection:listitem[1]:
+        jcr:primaryType: selection:listitem
+        selection:key: family
+        selection:label: Family Law
+      /selection:listitem[2]:
+        jcr:primaryType: selection:listitem
+        selection:key: corporate
+        selection:label: Corporate Law
+      /selection:listitem[3]:
+        jcr:primaryType: selection:listitem
+        selection:key: Financial
+        selection:label: Financial Law
