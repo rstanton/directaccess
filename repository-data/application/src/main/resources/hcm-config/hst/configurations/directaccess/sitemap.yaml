@@ -2,3 +2,18 @@ definitions:
   config:
     /hst:hst/hst:configurations/directaccess/hst:sitemap:
       jcr:primaryType: hst:sitemap
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:refId: root
+        hst:componentconfigurationid: hst:pages/root
+      /barristers:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/barristers
+        hst:relativecontentpath: barristers
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/barrister
+          hst:relativecontentpath: ${parent}/${1}

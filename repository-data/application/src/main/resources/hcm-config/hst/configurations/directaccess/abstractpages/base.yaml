@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/directaccess/hst:abstractpages/base:
+      jcr:primaryType: hst:component
+      hst:template: base-template
+      /menu:
+        jcr:primaryType: hst:component
+      /footer:
+        jcr:primaryType: hst:component

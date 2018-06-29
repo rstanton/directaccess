@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/directaccess/hst:pages/pagenotfound:
+      jcr:primaryType: hst:component

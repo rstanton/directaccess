@@ -2,3 +2,24 @@ definitions:
   config:
     /hst:hst/hst:configurations/directaccess/hst:workspace/hst:containers:
       jcr:primaryType: hst:containercomponentfolder
+      /root:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hst:label: Root Page
+          hst:xtype: hst.vbox
+      /barristers:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hst:label: Barristers List
+          hst:xtype: hst.vbox
+      /barrister:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hst:label: Barrister
+          hst:xtype: hst.vbox
