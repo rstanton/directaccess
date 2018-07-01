@@ -5,3 +5,15 @@ definitions:
       /base-template:
         jcr:primaryType: hst:template
         hst:renderpath: webfile://freemarker/directaccess/base-template.ftl
+      /base-top-menu:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/directaccess/base-top-menu.ftl
+      /base-footer:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/directaccess/base-footer.ftl
+      /homepage-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/directaccess/homepage-main.ftl
+      /pagenotfound-main:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/directaccess/pagenotfound-main.ftl

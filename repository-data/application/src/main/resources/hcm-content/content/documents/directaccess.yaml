@@ -1,4 +1,5 @@
 /content/documents/directaccess:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: efd5cec1-a478-4280-a640-d94ba8b4a1c9

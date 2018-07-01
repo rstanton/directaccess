@@ -1,0 +1,7 @@
+/content/documents/directaccess/content:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 7b3c3c14-dc42-4fd3-8566-300da51abf6a
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 41a87e84-f194-4efd-98ed-8eedda8a8c3b
+  hippotranslation:locale: en

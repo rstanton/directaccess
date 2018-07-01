@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/directaccess/hst:workspace/hst:sitemenus/main/Direct Access:
+  .meta:order-before: Contact
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: directaccess
