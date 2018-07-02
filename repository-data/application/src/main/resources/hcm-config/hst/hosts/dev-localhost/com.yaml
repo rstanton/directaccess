@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:hst/hst:hosts/dev-localhost/com:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      /barristers:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /www:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /hst:root:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:homepage: root
+            hst:mountpoint: /hst:hst/hst:sites/directaccess
