@@ -5,9 +5,7 @@ definitions:
       hst:template: base-template
       /footer:
         jcr:primaryType: hst:component
-        /container:
-          jcr:primaryType: hst:containercomponentreference
-          hst:referencecomponent: base/footer
+        hst:template: base-footer
       /menu:
         jcr:primaryType: hst:component
         hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent

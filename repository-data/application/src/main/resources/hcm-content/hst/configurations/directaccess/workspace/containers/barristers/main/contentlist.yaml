@@ -1,5 +1,5 @@
 /hst:hst/hst:configurations/directaccess/hst:workspace/hst:containers/barristers/main/contentlist:
   jcr:primaryType: hst:containeritemcomponent
   hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
-  hst:template: ''
+  hst:template: barrister-list
   hst:xtype: hst.item

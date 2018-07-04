@@ -8,21 +8,49 @@
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
     jcr:uuid: 00544f8c-a4c2-4a92-9947-2fe1d910602f
     hippo:name: Global
-    /global:
+    /global[1]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 83f13243-7d0a-4452-834b-f279a77a56a2
-      hippo:availability: [live, preview]
+      hippo:availability: [live]
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
-      hippostdpubwf:lastModificationDate: 2014-08-21T22:10:52.812+02:00
+      hippostdpubwf:lastModificationDate: 2018-07-04T19:46:42.350+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2014-08-21T22:10:54.657+02:00
-      resourcebundle:descriptions: [Text shown in the global page footer.]
+      hippostdpubwf:publicationDate: 2018-07-04T19:46:44.997+01:00
+      resourcebundle:descriptions: [Text shown in the global page footer., '']
       resourcebundle:id: essentials.global
-      resourcebundle:keys: [footer.text]
-      resourcebundle:messages: [©2018]
+      resourcebundle:keys: [footer.text, sitename]
+      resourcebundle:messages: [©2018 Ross Stanton & Co, Test Law 101]
+    /global[2]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d9cc4360-7421-4589-b8ea-6248c1de7369
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
+      hippostdpubwf:lastModificationDate: 2018-07-04T19:46:42.350+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Text shown in the global page footer., '']
+      resourcebundle:id: essentials.global
+      resourcebundle:keys: [footer.text, sitename]
+      resourcebundle:messages: [©2018 Ross Stanton & Co, Test Law 101]
+    /global[3]:
+      jcr:primaryType: resourcebundle:resourcebundle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f6a3ccee-5de9-4325-ad84-91d3dd169585
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-08-21T22:10:13.443+02:00
+      hippostdpubwf:lastModificationDate: 2018-07-04T19:46:27.949+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      resourcebundle:descriptions: [Text shown in the global page footer., '']
+      resourcebundle:id: essentials.global
+      resourcebundle:keys: [footer.text, sitename]
+      resourcebundle:messages: [©2018 Ross Stanton & Co, Test Law 101]
   /homepage:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']

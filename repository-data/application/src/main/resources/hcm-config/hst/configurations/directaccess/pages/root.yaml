@@ -4,5 +4,12 @@ definitions:
       jcr:primaryType: hst:component
       hst:referencecomponent: hst:abstractpages/base
       /main:
-        jcr:primaryType: hst:containercomponentreference
-        hst:referencecomponent: root/main
+        jcr:primaryType: hst:component
+        hst:template: homepage-main
+        /container:
+          jcr:primaryType: hst:containercomponent
+          hst:xtype: hst.vbox
+          hst:label: Main Content Block
+        /test:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:xtype: hst.vbox
