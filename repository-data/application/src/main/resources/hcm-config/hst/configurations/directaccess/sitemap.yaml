@@ -27,3 +27,11 @@ definitions:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/pagenotfound
         hst:refId: pagenotfound
+      /chambers:
+        jcr:primaryType: hst:sitemapitem
+        hst:relativecontentpath: chambers
+        hst:componentconfigurationid: hst:pages/chambers
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:relativecontentpath: ${parent}/{id}
+          hst:componentconfigurationid: hst:pages/chambers_detail

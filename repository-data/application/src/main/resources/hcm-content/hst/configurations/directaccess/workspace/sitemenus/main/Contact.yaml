@@ -1,3 +1,4 @@
 /hst:hst/hst:configurations/directaccess/hst:workspace/hst:sitemenus/main/Contact:
+  .meta:order-before: Chambers
   jcr:primaryType: hst:sitemenuitem
   hst:referencesitemapitem: contact

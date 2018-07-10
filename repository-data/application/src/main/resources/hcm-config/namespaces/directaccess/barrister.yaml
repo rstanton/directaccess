@@ -11,11 +11,88 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: d3cd7110-ca9f-4f99-a01d-19f581936403
+          jcr:uuid: 6d2a2f59-915b-43f8-818c-80cfda98d91e
           hipposysedit:node: true
           hipposysedit:supertype: ['directaccess:basedocument', 'hippostd:relaxed',
             'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/directaccess/nt/1.0
+          /imagelink:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:imagelink
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
+            hipposysedit:validators: [required]
+          /name:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:name
+            hipposysedit:primary: false
+            hipposysedit:type: String
+            hipposysedit:validators: [non-empty, required]
+          /overview:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:overview
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+            hipposysedit:validators: [required]
+          /calendardate:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:calldate
+            hipposysedit:primary: false
+            hipposysedit:type: CalendarDate
+            hipposysedit:validators: [required]
+          /Specialisms:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:Specialisms
+            hipposysedit:primary: false
+            hipposysedit:type: directaccess:Specialisms
+            hipposysedit:validators: [required]
+          /expertise:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:expertise
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /Recommendations:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:Recommendations
+            hipposysedit:primary: false
+            hipposysedit:type: directaccess:Recommendations
+          /chambers:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:chambers
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
+            hipposysedit:validators: [required]
+        /hipposysedit:nodetype[2]:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d8c60820-bc51-4394-be71-93c80e20a99c
+          hipposysedit:node: true
+          hipposysedit:supertype: ['directaccess:basedocument', 'hippostd:relaxed',
+            'hippotranslation:translated']
           /imagelink:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -99,9 +176,47 @@ definitions:
           jcr:mixinTypes: ['mix:referenceable']
           directaccess:name: ''
           directaccess:calldate: 0001-01-01T12:00:00Z
-          jcr:uuid: fa37d7c0-e1d2-4cdc-851c-637cd40d93e4
+          jcr:uuid: 45adc274-b4cc-40f3-b5f0-1482ff6ad453
           hippostdpubwf:lastModificationDate: 2018-06-26T19:59:22.612+01:00
           hippostdpubwf:creationDate: 2018-06-26T19:59:22.612+01:00
+          /directaccess:imagelink:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /directaccess:overview:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /directaccess:Specialisms:
+            jcr:primaryType: directaccess:Specialisms
+            directaccess:specialism: ''
+          /directaccess:expertise:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /directaccess:Recommendations:
+            jcr:primaryType: directaccess:Recommendations
+            directaccess:date: 0001-01-01T12:00:00Z
+            directaccess:extract: ''
+            directaccess:publication: ''
+          /directaccess:chambers:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /hipposysedit:prototype[2]:
+          jcr:primaryType: nt:unstructured
+          jcr:mixinTypes: ['hippostd:publishableSummary', 'hippostd:relaxed', 'hippostdpubwf:document',
+            'hippotranslation:translated', 'mix:referenceable']
+          jcr:uuid: fb4ee7d9-fc37-4caa-b8fd-0fcb3021fae1
+          directaccess:calldate: 0001-01-01T12:00:00Z
+          directaccess:name: ''
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2018-06-26T19:59:22.612+01:00
+          hippostdpubwf:lastModificationDate: 2018-06-26T19:59:22.612+01:00
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
           /directaccess:imagelink:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

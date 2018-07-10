@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/directaccess/hst:pages/chambers_detail:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:containercomponentreference
+        hst:referencecomponent: chambers_detail/main

@@ -5,3 +5,162 @@
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: d7d6ea91-a760-4552-92cb-88c92f59cb5b
   hippotranslation:locale: en
+  /ross-stanton:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 92ceb41b-2ec7-4523-90ba-25bfb1124a9a
+    hippo:name: Ross Stanton
+    /ross-stanton[1]:
+      jcr:primaryType: directaccess:barrister
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 549e3d9f-32bd-402a-a38a-b96ec8896f44
+      directaccess:calldate: 2018-07-10T00:00:00+01:00
+      directaccess:name: Ross Stanton
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-07-10T20:42:27.337+01:00
+      hippostdpubwf:lastModificationDate: 2018-07-10T21:44:39.461+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a666937a-73b0-4929-9c27-4c739fd7b7a4
+      hippotranslation:locale: en
+      /directaccess:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d7a58b18-715e-4e52-a133-78ddb6259780
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /directaccess:overview:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec placerat ipsum urna, vitae ultricies magna varius et. Donec ut malesuada
+          ex. Vivamus eu leo ut tellus auctor condimentum. Nullam at risus quis elit
+          mattis condimentum vel et sem. Integer nec leo sed ligula pharetra pellentesque.
+          Maecenas sed iaculis nibh. Phasellus et ex bibendum, viverra massa vitae,
+          elementum odio. Maecenas elementum, odio nec semper lobortis, neque ex lobortis
+          velit, a posuere odio neque et tortor. Duis laoreet metus risus, eget suscipit
+          dui semper in. Integer posuere libero dolor, ac vulputate est lobortis tristique.
+          Curabitur orci neque, fringilla in ex eget, porta cursus elit. Suspendisse
+          vestibulum diam venenatis finibus interdum.</p>
+      /directaccess:Specialisms:
+        jcr:primaryType: directaccess:Specialisms
+        directaccess:specialism: corporate
+      /directaccess:expertise:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Praesent vitae consequat lacus, in accumsan nibh. Phasellus elit metus, pretium vel lobortis eu, efficitur et libero. Duis eget urna justo. Nulla commodo aliquam risus, sed suscipit ligula luctus vitae. Nam urna ante, tempor vel nunc vel, auctor faucibus mauris. Duis euismod nisi dolor, at fermentum erat aliquam in. Quisque in sapien fermentum leo consectetur pharetra. Curabitur suscipit eleifend orci, sit amet ultricies ligula porttitor convallis. Quisque pretium ligula vitae elit bibendum posuere. Nulla facilisi. Sed aliquet feugiat massa, in laoreet metus aliquam eu. Sed quis velit sed tellus posuere finibus. Sed maximus nibh quis tellus iaculis iaculis sed nec purus. Maecenas pellentesque consequat arcu, sed pellentesque augue aliquet ac.</p>
+
+          <p>Integer sodales molestie magna, id volutpat nisl tempus nec. Nullam sed mauris nec dolor scelerisque ullamcorper. Maecenas tristique finibus vestibulum. Phasellus euismod lacus eu mauris consequat laoreet. Nulla hendrerit consectetur odio ornare blandit. Aenean nec enim ac ligula eleifend pretium. Vestibulum congue dignissim sapien, nec facilisis velit rhoncus vel. Sed sed euismod mauris. Integer efficitur ac diam eu consequat. Etiam tincidunt tortor ac dignissim luctus. Nullam a ex euismod elit sollicitudin laoreet. Aliquam mollis mauris feugiat, facilisis dui id, hendrerit eros. Curabitur malesuada metus ac dolor placerat, at hendrerit magna viverra. Sed a nulla ac massa rhoncus luctus. Sed sit amet odio et odio facilisis lacinia a sed nibh.</p>
+
+          <p>Vestibulum eu dui eget elit malesuada aliquet. Sed id elit elit. Suspendisse tempus erat sit amet placerat vehicula. Donec at enim elit. Aenean et mauris blandit, ultricies leo in, sagittis libero. Nullam consectetur odio sed purus semper, vitae interdum leo molestie. Fusce maximus tellus nec lacus scelerisque semper. Phasellus accumsan tellus vel metus cursus volutpat. Sed nec turpis eu lorem condimentum mattis. Vestibulum euismod non diam eget interdum. Nullam vel consequat risus, in efficitur dolor. Aliquam id lacinia enim. Donec auctor semper maximus. Maecenas vel malesuada diam. Pellentesque nec pulvinar lectus. Sed sapien metus, varius vitae lobortis vel, congue et nisl.</p>
+      /directaccess:Recommendations:
+        jcr:primaryType: directaccess:Recommendations
+        directaccess:date: 0001-01-01T12:00:00Z
+        directaccess:extract: ''
+        directaccess:publication: ''
+      /directaccess:chambers:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2fef59fc-b576-4d43-8c02-08a72dbd47f0
+    /ross-stanton[2]:
+      jcr:primaryType: directaccess:barrister
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: de9ecc34-b1e9-416b-952a-d4b947f8b0c0
+      directaccess:calldate: 2018-07-10T00:00:00+01:00
+      directaccess:name: Ross Stanton
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-07-10T20:42:27.337+01:00
+      hippostdpubwf:lastModificationDate: 2018-07-10T20:44:18.866+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a666937a-73b0-4929-9c27-4c739fd7b7a4
+      hippotranslation:locale: en
+      /directaccess:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d7a58b18-715e-4e52-a133-78ddb6259780
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /directaccess:overview:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec placerat ipsum urna, vitae ultricies magna varius et. Donec ut malesuada
+          ex. Vivamus eu leo ut tellus auctor condimentum. Nullam at risus quis elit
+          mattis condimentum vel et sem. Integer nec leo sed ligula pharetra pellentesque.
+          Maecenas sed iaculis nibh. Phasellus et ex bibendum, viverra massa vitae,
+          elementum odio. Maecenas elementum, odio nec semper lobortis, neque ex lobortis
+          velit, a posuere odio neque et tortor. Duis laoreet metus risus, eget suscipit
+          dui semper in. Integer posuere libero dolor, ac vulputate est lobortis tristique.
+          Curabitur orci neque, fringilla in ex eget, porta cursus elit. Suspendisse
+          vestibulum diam venenatis finibus interdum.</p>
+      /directaccess:Specialisms:
+        jcr:primaryType: directaccess:Specialisms
+        directaccess:specialism: corporate
+      /directaccess:expertise:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Praesent vitae consequat lacus, in accumsan nibh. Phasellus elit metus, pretium vel lobortis eu, efficitur et libero. Duis eget urna justo. Nulla commodo aliquam risus, sed suscipit ligula luctus vitae. Nam urna ante, tempor vel nunc vel, auctor faucibus mauris. Duis euismod nisi dolor, at fermentum erat aliquam in. Quisque in sapien fermentum leo consectetur pharetra. Curabitur suscipit eleifend orci, sit amet ultricies ligula porttitor convallis. Quisque pretium ligula vitae elit bibendum posuere. Nulla facilisi. Sed aliquet feugiat massa, in laoreet metus aliquam eu. Sed quis velit sed tellus posuere finibus. Sed maximus nibh quis tellus iaculis iaculis sed nec purus. Maecenas pellentesque consequat arcu, sed pellentesque augue aliquet ac.</p>
+
+          <p>Integer sodales molestie magna, id volutpat nisl tempus nec. Nullam sed mauris nec dolor scelerisque ullamcorper. Maecenas tristique finibus vestibulum. Phasellus euismod lacus eu mauris consequat laoreet. Nulla hendrerit consectetur odio ornare blandit. Aenean nec enim ac ligula eleifend pretium. Vestibulum congue dignissim sapien, nec facilisis velit rhoncus vel. Sed sed euismod mauris. Integer efficitur ac diam eu consequat. Etiam tincidunt tortor ac dignissim luctus. Nullam a ex euismod elit sollicitudin laoreet. Aliquam mollis mauris feugiat, facilisis dui id, hendrerit eros. Curabitur malesuada metus ac dolor placerat, at hendrerit magna viverra. Sed a nulla ac massa rhoncus luctus. Sed sit amet odio et odio facilisis lacinia a sed nibh.</p>
+
+          <p>Vestibulum eu dui eget elit malesuada aliquet. Sed id elit elit. Suspendisse tempus erat sit amet placerat vehicula. Donec at enim elit. Aenean et mauris blandit, ultricies leo in, sagittis libero. Nullam consectetur odio sed purus semper, vitae interdum leo molestie. Fusce maximus tellus nec lacus scelerisque semper. Phasellus accumsan tellus vel metus cursus volutpat. Sed nec turpis eu lorem condimentum mattis. Vestibulum euismod non diam eget interdum. Nullam vel consequat risus, in efficitur dolor. Aliquam id lacinia enim. Donec auctor semper maximus. Maecenas vel malesuada diam. Pellentesque nec pulvinar lectus. Sed sapien metus, varius vitae lobortis vel, congue et nisl.</p>
+      /directaccess:Recommendations:
+        jcr:primaryType: directaccess:Recommendations
+        directaccess:date: 0001-01-01T12:00:00Z
+        directaccess:extract: ''
+        directaccess:publication: ''
+      /directaccess:chambers:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2fef59fc-b576-4d43-8c02-08a72dbd47f0
+    /ross-stanton[3]:
+      jcr:primaryType: directaccess:barrister
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1291f1f1-6a0c-4010-88a5-7f09a0ce03c6
+      directaccess:calldate: 2018-07-10T00:00:00+01:00
+      directaccess:name: Ross Stanton
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-07-10T20:42:27.337+01:00
+      hippostdpubwf:lastModificationDate: 2018-07-10T20:44:18.866+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-07-10T20:44:22.517+01:00
+      hippotranslation:id: a666937a-73b0-4929-9c27-4c739fd7b7a4
+      hippotranslation:locale: en
+      /directaccess:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d7a58b18-715e-4e52-a133-78ddb6259780
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /directaccess:overview:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec placerat ipsum urna, vitae ultricies magna varius et. Donec ut malesuada
+          ex. Vivamus eu leo ut tellus auctor condimentum. Nullam at risus quis elit
+          mattis condimentum vel et sem. Integer nec leo sed ligula pharetra pellentesque.
+          Maecenas sed iaculis nibh. Phasellus et ex bibendum, viverra massa vitae,
+          elementum odio. Maecenas elementum, odio nec semper lobortis, neque ex lobortis
+          velit, a posuere odio neque et tortor. Duis laoreet metus risus, eget suscipit
+          dui semper in. Integer posuere libero dolor, ac vulputate est lobortis tristique.
+          Curabitur orci neque, fringilla in ex eget, porta cursus elit. Suspendisse
+          vestibulum diam venenatis finibus interdum.</p>
+      /directaccess:Specialisms:
+        jcr:primaryType: directaccess:Specialisms
+        directaccess:specialism: corporate
+      /directaccess:expertise:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Praesent vitae consequat lacus, in accumsan nibh. Phasellus elit metus, pretium vel lobortis eu, efficitur et libero. Duis eget urna justo. Nulla commodo aliquam risus, sed suscipit ligula luctus vitae. Nam urna ante, tempor vel nunc vel, auctor faucibus mauris. Duis euismod nisi dolor, at fermentum erat aliquam in. Quisque in sapien fermentum leo consectetur pharetra. Curabitur suscipit eleifend orci, sit amet ultricies ligula porttitor convallis. Quisque pretium ligula vitae elit bibendum posuere. Nulla facilisi. Sed aliquet feugiat massa, in laoreet metus aliquam eu. Sed quis velit sed tellus posuere finibus. Sed maximus nibh quis tellus iaculis iaculis sed nec purus. Maecenas pellentesque consequat arcu, sed pellentesque augue aliquet ac.</p>
+
+          <p>Integer sodales molestie magna, id volutpat nisl tempus nec. Nullam sed mauris nec dolor scelerisque ullamcorper. Maecenas tristique finibus vestibulum. Phasellus euismod lacus eu mauris consequat laoreet. Nulla hendrerit consectetur odio ornare blandit. Aenean nec enim ac ligula eleifend pretium. Vestibulum congue dignissim sapien, nec facilisis velit rhoncus vel. Sed sed euismod mauris. Integer efficitur ac diam eu consequat. Etiam tincidunt tortor ac dignissim luctus. Nullam a ex euismod elit sollicitudin laoreet. Aliquam mollis mauris feugiat, facilisis dui id, hendrerit eros. Curabitur malesuada metus ac dolor placerat, at hendrerit magna viverra. Sed a nulla ac massa rhoncus luctus. Sed sit amet odio et odio facilisis lacinia a sed nibh.</p>
+
+          <p>Vestibulum eu dui eget elit malesuada aliquet. Sed id elit elit. Suspendisse tempus erat sit amet placerat vehicula. Donec at enim elit. Aenean et mauris blandit, ultricies leo in, sagittis libero. Nullam consectetur odio sed purus semper, vitae interdum leo molestie. Fusce maximus tellus nec lacus scelerisque semper. Phasellus accumsan tellus vel metus cursus volutpat. Sed nec turpis eu lorem condimentum mattis. Vestibulum euismod non diam eget interdum. Nullam vel consequat risus, in efficitur dolor. Aliquam id lacinia enim. Donec auctor semper maximus. Maecenas vel malesuada diam. Pellentesque nec pulvinar lectus. Sed sapien metus, varius vitae lobortis vel, congue et nisl.</p>
+      /directaccess:Recommendations:
+        jcr:primaryType: directaccess:Recommendations
+        directaccess:date: 0001-01-01T12:00:00Z
+        directaccess:extract: ''
+        directaccess:publication: ''
+      /directaccess:chambers:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 2fef59fc-b576-4d43-8c02-08a72dbd47f0

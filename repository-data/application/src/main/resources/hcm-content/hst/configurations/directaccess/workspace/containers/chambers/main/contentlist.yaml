@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/directaccess/hst:workspace/hst:containers/chambers/main/contentlist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+  hst:template: chambers-list
+  hst:xtype: hst.item

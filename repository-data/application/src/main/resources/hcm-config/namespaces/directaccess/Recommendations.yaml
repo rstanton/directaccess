@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: 82b10686-5111-4266-a7c1-3154358777b9
+          jcr:uuid: ee50297d-1b6b-4110-957f-50d8bd05b2cf
           hipposysedit:node: true
           hipposysedit:supertype: ['hippo:compound', 'hippostd:relaxed']
           hipposysedit:uri: http://www.onehippo.org/directaccess/nt/1.0
@@ -23,7 +23,6 @@ definitions:
             hipposysedit:path: directaccess:publication
             hipposysedit:primary: false
             hipposysedit:type: String
-            hipposysedit:validators: [non-empty, required]
           /date:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -32,7 +31,6 @@ definitions:
             hipposysedit:path: directaccess:date
             hipposysedit:primary: false
             hipposysedit:type: CalendarDate
-            hipposysedit:validators: [required]
           /extract:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -41,7 +39,6 @@ definitions:
             hipposysedit:path: directaccess:extract
             hipposysedit:primary: false
             hipposysedit:type: Text
-            hipposysedit:validators: [non-empty, required]
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:

@@ -7,6 +7,8 @@ import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import java.util.List;
 import com.stanton.beans.Specialisms;
+import com.stanton.beans.Recommendations;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
 
 @HippoEssentialsGenerated(internalName = "directaccess:barrister")
 @Node(jcrType = "directaccess:barrister")
@@ -36,5 +38,21 @@ public class Barrister extends BaseDocument {
     public List<Specialisms> getSpecialisms() {
         return getChildBeansByName("directaccess:Specialisms",
                 Specialisms.class);
+    }
+
+    @HippoEssentialsGenerated(internalName = "directaccess:expertise")
+    public HippoHtml getExpertise() {
+        return getHippoHtml("directaccess:expertise");
+    }
+
+    @HippoEssentialsGenerated(internalName = "directaccess:Recommendations")
+    public List<Recommendations> getRecommendations() {
+        return getChildBeansByName("directaccess:Recommendations",
+                Recommendations.class);
+    }
+
+    @HippoEssentialsGenerated(internalName = "directaccess:chambers")
+    public HippoBean getChambers() {
+        return getLinkedBean("directaccess:chambers", HippoBean.class);
     }
 }
