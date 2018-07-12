@@ -33,5 +33,5 @@ definitions:
         hst:componentconfigurationid: hst:pages/chambers
         /_any_:
           jcr:primaryType: hst:sitemapitem
-          hst:relativecontentpath: ${parent}/{id}
+          hst:relativecontentpath: ${parent}/${1}
           hst:componentconfigurationid: hst:pages/chambers_detail

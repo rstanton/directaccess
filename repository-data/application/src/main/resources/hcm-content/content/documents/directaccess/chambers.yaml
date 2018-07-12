@@ -8,150 +8,75 @@
   /bournemouth:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-    jcr:uuid: 2fef59fc-b576-4d43-8c02-08a72dbd47f0
+    jcr:uuid: f10734ea-8425-4565-b100-1f53c1371c4e
     hippo:name: Bournemouth
     /bournemouth[1]:
       jcr:primaryType: directaccess:Chambers
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 287b7f09-e8a1-4008-a99b-09cde8f15612
+      jcr:uuid: 579cda9e-40bf-4172-b1e4-62c37de3f262
       directaccess:name: Bournemouth
       hippo:availability: []
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-07-10T20:43:00.695+01:00
-      hippostdpubwf:lastModificationDate: 2018-07-10T20:43:00.696+01:00
+      hippostdpubwf:creationDate: 2018-07-12T17:53:15.302+01:00
+      hippostdpubwf:lastModificationDate: 2018-07-12T17:53:15.302+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 3955c803-1bd1-4d25-97ea-e8fed410d585
+      hippotranslation:id: e7c4516f-8e60-4028-a2b5-70c754645ab6
       hippotranslation:locale: en
       /directaccess:Address:
         jcr:primaryType: directaccess:Address
-        directaccess:Street: The Street
-        directaccess:Town: Bournemouth
+        directaccess:Street: Street
+        directaccess:Town: Town
         directaccess:buildingname: ''
         directaccess:buildingnumber: '1'
-        directaccess:country: UK
-        directaccess:county: Dorset
+        directaccess:country: Country
+        directaccess:county: County
         directaccess:latlong: 0,0
-        directaccess:postcode: BH1 1BT
+        directaccess:postcode: SP5 2BD
     /bournemouth[2]:
       jcr:primaryType: directaccess:Chambers
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: 92a877aa-7f91-4d71-9495-43fc4d8f6ea3
+      jcr:uuid: e6d04cc6-caec-422f-949c-2465cb7040f2
       directaccess:name: Bournemouth
       hippo:availability: [preview]
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-07-10T20:43:00.695+01:00
-      hippostdpubwf:lastModificationDate: 2018-07-10T20:43:30.968+01:00
+      hippostdpubwf:creationDate: 2018-07-12T17:53:15.302+01:00
+      hippostdpubwf:lastModificationDate: 2018-07-12T17:53:47.848+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 3955c803-1bd1-4d25-97ea-e8fed410d585
+      hippotranslation:id: e7c4516f-8e60-4028-a2b5-70c754645ab6
       hippotranslation:locale: en
       /directaccess:Address:
         jcr:primaryType: directaccess:Address
-        directaccess:Street: The Street
-        directaccess:Town: Bournemouth
+        directaccess:Street: Street
+        directaccess:Town: Town
         directaccess:buildingname: ''
         directaccess:buildingnumber: '1'
-        directaccess:country: UK
-        directaccess:county: Dorset
+        directaccess:country: Country
+        directaccess:county: County
         directaccess:latlong: 0,0
-        directaccess:postcode: BH1 1BT
+        directaccess:postcode: SP5 2BD
     /bournemouth[3]:
       jcr:primaryType: directaccess:Chambers
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: e0b6a135-fce5-4985-b93c-4267ab3a732f
+      jcr:uuid: 80d84bd4-5973-453d-888e-3627106e3d07
       directaccess:name: Bournemouth
       hippo:availability: [live]
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-07-10T20:43:00.695+01:00
-      hippostdpubwf:lastModificationDate: 2018-07-10T20:43:30.968+01:00
+      hippostdpubwf:creationDate: 2018-07-12T17:53:15.302+01:00
+      hippostdpubwf:lastModificationDate: 2018-07-12T17:53:47.848+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-07-10T20:43:34.704+01:00
-      hippotranslation:id: 3955c803-1bd1-4d25-97ea-e8fed410d585
+      hippostdpubwf:publicationDate: 2018-07-12T17:53:53.208+01:00
+      hippotranslation:id: e7c4516f-8e60-4028-a2b5-70c754645ab6
       hippotranslation:locale: en
       /directaccess:Address:
         jcr:primaryType: directaccess:Address
-        directaccess:Street: The Street
-        directaccess:Town: Bournemouth
+        directaccess:Street: Street
+        directaccess:Town: Town
         directaccess:buildingname: ''
         directaccess:buildingnumber: '1'
-        directaccess:country: UK
-        directaccess:county: Dorset
+        directaccess:country: Country
+        directaccess:county: County
         directaccess:latlong: 0,0
-        directaccess:postcode: BH1 1BT
-  /test:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-    jcr:uuid: 3da3d66a-129b-4454-a596-32a66e429693
-    hippo:name: Test
-    /test[1]:
-      jcr:primaryType: directaccess:Chambers
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: ddc658ec-043e-42b1-ad76-40243a6977e8
-      directaccess:name: Test
-      hippo:availability: []
-      hippostd:state: draft
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-07-10T21:53:40.958+01:00
-      hippostdpubwf:lastModificationDate: 2018-07-10T21:53:40.959+01:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 5af2f4e8-d645-4d81-b5ec-0e2cfb45da3d
-      hippotranslation:locale: en
-      /directaccess:Address:
-        jcr:primaryType: directaccess:Address
-        directaccess:Street: ''
-        directaccess:Town: Portsmouth
-        directaccess:buildingname: test
-        directaccess:buildingnumber: ''
-        directaccess:country: Test
-        directaccess:county: Test
-        directaccess:latlong: Test
-        directaccess:postcode: Test
-    /test[2]:
-      jcr:primaryType: directaccess:Chambers
-      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: db90d73a-c16e-4b91-9fcc-cc30fca06729
-      directaccess:name: Test
-      hippo:availability: [preview]
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-07-10T21:53:40.958+01:00
-      hippostdpubwf:lastModificationDate: 2018-07-10T21:54:00.140+01:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 5af2f4e8-d645-4d81-b5ec-0e2cfb45da3d
-      hippotranslation:locale: en
-      /directaccess:Address:
-        jcr:primaryType: directaccess:Address
-        directaccess:Street: ''
-        directaccess:Town: Portsmouth
-        directaccess:buildingname: test
-        directaccess:buildingnumber: ''
-        directaccess:country: Test
-        directaccess:county: Test
-        directaccess:latlong: Test
-        directaccess:postcode: Test
-    /test[3]:
-      jcr:primaryType: directaccess:Chambers
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 619a3089-f4d8-4ac6-8832-476ca5705eb1
-      directaccess:name: Test
-      hippo:availability: [live]
-      hippostd:state: published
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2018-07-10T21:53:40.958+01:00
-      hippostdpubwf:lastModificationDate: 2018-07-10T21:54:00.140+01:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-07-10T21:54:04.793+01:00
-      hippotranslation:id: 5af2f4e8-d645-4d81-b5ec-0e2cfb45da3d
-      hippotranslation:locale: en
-      /directaccess:Address:
-        jcr:primaryType: directaccess:Address
-        directaccess:Street: ''
-        directaccess:Town: Portsmouth
-        directaccess:buildingname: test
-        directaccess:buildingnumber: ''
-        directaccess:country: Test
-        directaccess:county: Test
-        directaccess:latlong: Test
-        directaccess:postcode: Test
+        directaccess:postcode: SP5 2BD
