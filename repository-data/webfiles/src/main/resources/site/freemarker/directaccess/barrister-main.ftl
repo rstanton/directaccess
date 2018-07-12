@@ -2,7 +2,7 @@
 
 <section id="main" class="wrapper">
 <#if document??>
-	<@hst.link var="img" hippobean=document.imagelink/>
+	<@hst.link var="img" hippobean=document.imagelink.largesquare/>
 	
     
     <div class="inner">
@@ -19,7 +19,7 @@
         <#if document.chambers??>
             <@hst.link var="link" hippobean=document.chambers/>
             
-            <p><a href=${link}>${document.chambers.name}</a></p>
+            <p>${document.name} works from our <a href=${link}>${document.chambers.name}</a> but blah blah</p>
         </#if>
 	</div>
 </#if>

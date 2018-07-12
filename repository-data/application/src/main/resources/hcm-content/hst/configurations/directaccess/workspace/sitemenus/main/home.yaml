@@ -1,4 +1,0 @@
-/hst:hst/hst:configurations/directaccess/hst:workspace/hst:sitemenus/main/home:
-  .meta:order-before: Barristers
-  jcr:primaryType: hst:sitemenuitem
-  hst:referencesitemapitem: root

@@ -3,5 +3,5 @@
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
   jcr:uuid: 9b71e3c3-c638-4be3-ab6e-589ae62abe92
   hippo:name: Direct Access Hippo App
-  hippostd:foldertype: [new-image-folder]
-  hippostd:gallerytype: ['hippogallery:imageset']
+  hippostd:foldertype: [new-directaccess-imageset-folder]
+  hippostd:gallerytype: ['directaccess:imageset']

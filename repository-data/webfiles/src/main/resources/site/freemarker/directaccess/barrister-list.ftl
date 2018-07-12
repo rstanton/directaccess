@@ -1,38 +1,40 @@
 <#include "../include/imports.ftl">
 
 <#if pageable?? && pageable.items?has_content>
-	<section id="people-summary" class="wrapper">
+	<section id="barrister-list" class="wrapper special">
 		<div class="inner">
+            <header>
+                <h2>Our Barristers</h2>
+            </header>
 
 			<#assign size=pageable.items?size/>
 			
 			<div class="flex flex-2">
 				<#list pageable.items as item>
-				    <@hst.manageContent hippobean=item/>
-					<@hst.link var="link" hippobean=item/>
-					<@hst.link var="img" hippobean=item.imagelink.thumbnail/>
-					
-					
-					<div class="box fit person">
-						<div class="image">
-							<a href="${link}"><img src="${img}"/></a>
-						</div>
-				
-						<#if item.name ??>
-							<h3 class="align-center"><a href="${link}">${item.name?html}</a></h3>
-						</#if>
-                        
-                        <#if item.chambers ??>
-                            <@hst.link var="chambers" hippobean=item.chambers/>
-                            <#if item.chambers.name??>
-                                <h4 class="align-center"><a href=${chambers}>${item.chambers.name?html}</a></h4>
+                    <article id=${item.name}>
+                        <@hst.manageContent hippobean=item/>
+                        <@hst.link var="link" hippobean=item/>
+                        <@hst.link var="img" hippobean=item.imagelink.mediumsquare/>
+
+
+                        <div class="box fit person">
+                            <div class="image left">
+                                <a href="${link}"><img src="${img}"/></a>
+                            </div>
+
+                            <#if item.name ??>
+                                <header><h3 class="align-left"><a href="${link}">${item.name?html}</a></h3></header>
                             </#if>
-                        </#if>
-                        
-						<#if item.overview??>
-							<p><@hst.html hippohtml=item.overview/></p>
-						</#if>
-					</div>
+
+                            <#if item.overview??>
+                                <p><@hst.html hippohtml=item.overview/></p>
+                            </#if>
+                            
+                            <footer>
+                                <a href=${link} class="button">More</a>
+                            </footer>
+                        </div>
+                    </article>
 				</#list>
 			</div>
 		</div>

@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: fd7e2026-3a09-4e1d-8799-5e67a278ef70
+          jcr:uuid: f37ce579-978f-4ac4-a4fe-bcd88407da47
           hipposysedit:node: true
           hipposysedit:supertype: ['directaccess:basedocument', 'hippostd:relaxed',
             'hippotranslation:translated']
@@ -33,6 +33,24 @@ definitions:
             hipposysedit:path: directaccess:Address
             hipposysedit:primary: false
             hipposysedit:type: directaccess:Address
+          /overview:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:overview
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+            hipposysedit:validators: [required]
+          /imagelink:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: directaccess:imagelink
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
+            hipposysedit:validators: [required]
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
@@ -45,7 +63,7 @@ definitions:
           hippotranslation:locale: document-type-locale
           jcr:mixinTypes: ['mix:referenceable']
           directaccess:name: ''
-          jcr:uuid: 97c420e1-9a0f-45c9-8917-dacdc09192b8
+          jcr:uuid: 435dac54-b51e-4014-a839-7594ec6cf7b6
           hippostdpubwf:lastModificationDate: 2018-06-26T21:02:36.561+01:00
           hippostdpubwf:creationDate: 2018-06-26T21:02:36.562+01:00
           /directaccess:Address:
@@ -58,6 +76,15 @@ definitions:
             directaccess:county: ''
             directaccess:latlong: ''
             directaccess:postcode: ''
+          /directaccess:overview:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /directaccess:imagelink:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -74,6 +101,24 @@ definitions:
             caption: Chambers Name
             field: name
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /overview:
+            jcr:primaryType: frontend:plugin
+            caption: Location Overview
+            field: overview
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /imagelink:
+            jcr:primaryType: frontend:plugin
+            caption: imagelink
+            field: imagelink
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.field
             hint: ''
             /cluster.options:

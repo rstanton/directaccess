@@ -1,0 +1,83 @@
+/content/gallery/directaccess/mark_elliot_560x670.jpg:
+  .meta:order-before: 3pb_bournemouth.jpg
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: ee0da663-8d8e-4e62-a5f9-d904d1697fc8
+  hippo:name: Mark_Elliot_560x670.jpg
+  /mark_elliot_560x670.jpg:
+    jcr:primaryType: directaccess:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: Mark_Elliot_560x670.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: Mark_Elliot_560x670.jpg
+      hippogallery:height: 60
+      hippogallery:width: 50
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/thumbnail/thumbnail.jpg
+      jcr:lastModified: 2018-07-12T20:00:16.564+01:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 670
+      hippogallery:width: 560
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/original/original.jpg
+      jcr:lastModified: 2018-07-12T20:00:16.564+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:smallsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 233
+      hippogallery:width: 194
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/smallsquare/smallsquare.jpg
+      jcr:lastModified: 2018-07-12T20:10:43.890+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:mediumsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 313
+      hippogallery:width: 261
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/mediumsquare/mediumsquare.jpg
+      jcr:lastModified: 2018-07-12T20:10:43.988+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:largesquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 663
+      hippogallery:width: 554
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/largesquare/largesquare.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.066+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:small:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 224
+      hippogallery:width: 187
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/small/small.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.150+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:large:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 302
+      hippogallery:width: 252
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/large/large.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.199+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 250
+      hippogallery:width: 208
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/mark_elliot_560x670.jpg/mark_elliot_560x670.jpg/banner/banner.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.272+01:00
+      jcr:mimeType: image/jpeg

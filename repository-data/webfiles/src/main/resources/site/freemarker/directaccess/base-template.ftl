@@ -19,7 +19,7 @@
     </#if>
     <@hst.headContributions categoryExcludes="htmlBodyEnd, scripts" xhtml=true/>
 </head>
-<body>
+<body class="subpage">
     <!-- These are the important bits, they're place holders for Hippos dynamic components -->
     <!-- Header -->
 	<@hst.include ref="menu"/>

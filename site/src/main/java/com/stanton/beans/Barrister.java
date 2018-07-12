@@ -9,6 +9,7 @@ import java.util.List;
 import com.stanton.beans.Specialisms;
 import com.stanton.beans.Recommendations;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
+import com.stanton.beans.Imageset;
 
 @HippoEssentialsGenerated(internalName = "directaccess:barrister")
 @Node(jcrType = "directaccess:barrister")
@@ -21,12 +22,6 @@ public class Barrister extends BaseDocument {
     @HippoEssentialsGenerated(internalName = "directaccess:calldate")
     public Calendar getCalldate() {
         return getProperty("directaccess:calldate");
-    }
-
-    @HippoEssentialsGenerated(internalName = "directaccess:imagelink")
-    public HippoGalleryImageSet getImagelink() {
-        return getLinkedBean("directaccess:imagelink",
-                HippoGalleryImageSet.class);
     }
 
     @HippoEssentialsGenerated(internalName = "directaccess:overview")
@@ -54,5 +49,10 @@ public class Barrister extends BaseDocument {
     @HippoEssentialsGenerated(internalName = "directaccess:chambers")
     public HippoBean getChambers() {
         return getLinkedBean("directaccess:chambers", HippoBean.class);
+    }
+
+    @HippoEssentialsGenerated(internalName = "directaccess:imagelink")
+    public Imageset getImagelink() {
+        return getLinkedBean("directaccess:imagelink", Imageset.class);
     }
 }

@@ -3,6 +3,7 @@
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
 
 [directaccess:Address] > hippo:compound, hippostd:relaxed
   orderable
@@ -24,4 +25,6 @@
 
 [directaccess:barrister] > directaccess:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
+
+[directaccess:imageset] > hippogallery:imageset, hippogallery:relaxed
 

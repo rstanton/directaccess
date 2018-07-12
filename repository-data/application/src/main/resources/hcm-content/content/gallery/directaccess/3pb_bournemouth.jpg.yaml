@@ -1,0 +1,81 @@
+/content/gallery/directaccess/3pb_bournemouth.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: b693217a-441a-435a-8a2d-e2d056b07b09
+  /3pb_bournemouth.jpg:
+    jcr:primaryType: directaccess:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: 3pb_bournemouth.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: 3pb_bournemouth.jpg
+      hippogallery:height: 45
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/thumbnail/thumbnail.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:small:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 224
+      hippogallery:width: 298
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/small/small.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 480
+      hippogallery:width: 640
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/original/original.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:large:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 302
+      hippogallery:width: 402
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/large/large.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 250
+      hippogallery:width: 333
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/banner/banner.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:largesquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 480
+      hippogallery:width: 640
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/largesquare/largesquare.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:mediumsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 234
+      hippogallery:width: 313
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/mediumsquare/mediumsquare.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:smallsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 174
+      hippogallery:width: 233
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/3pb_bournemouth.jpg/3pb_bournemouth.jpg/smallsquare/smallsquare.jpg
+      jcr:lastModified: 2018-07-12T20:25:41.295+01:00
+      jcr:mimeType: image/jpeg

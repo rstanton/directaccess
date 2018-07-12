@@ -7,6 +7,6 @@
     
     <div class="inner">
         ${document.name}
-        ${document.address.street1}
+        ${document.address.street}
 	</div>
 </#if>

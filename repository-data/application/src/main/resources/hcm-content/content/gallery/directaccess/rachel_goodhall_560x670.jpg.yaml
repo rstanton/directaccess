@@ -1,10 +1,11 @@
 /content/gallery/directaccess/rachel_goodhall_560x670.jpg:
+  .meta:order-before: mark_elliot_560x670.jpg
   jcr:primaryType: hippo:handle
   jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
   jcr:uuid: d7a58b18-715e-4e52-a133-78ddb6259780
   hippo:name: Rachel_Goodhall_560x670.jpg
   /rachel_goodhall_560x670.jpg:
-    jcr:primaryType: hippogallery:imageset
+    jcr:primaryType: directaccess:imageset
     hippo:availability: [live, preview]
     hippogallery:filename: Rachel_Goodhall_560x670.jpg
     /hippogallery:thumbnail:
@@ -14,7 +15,7 @@
       hippogallery:width: 50
       jcr:data:
         type: binary
-        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/Rachel_Goodhall_560x670_thumbnail.jpg
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/thumbnail/thumbnail.jpg
       jcr:lastModified: 2018-07-10T20:44:11.987+01:00
       jcr:mimeType: image/jpeg
     /hippogallery:original:
@@ -23,6 +24,60 @@
       hippogallery:width: 560
       jcr:data:
         type: binary
-        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/Rachel_Goodhall_560x670_original.jpg
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/original/original.jpg
       jcr:lastModified: 2018-07-10T20:44:11.987+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:smallsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 233
+      hippogallery:width: 194
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/smallsquare/smallsquare.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.337+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:mediumsquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 313
+      hippogallery:width: 261
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/mediumsquare/mediumsquare.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.383+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:largesquare:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 663
+      hippogallery:width: 554
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/largesquare/largesquare.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.433+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:small:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 224
+      hippogallery:width: 187
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/small/small.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.499+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:large:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 302
+      hippogallery:width: 252
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/large/large.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.542+01:00
+      jcr:mimeType: image/jpeg
+    /directaccess:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 250
+      hippogallery:width: 208
+      jcr:data:
+        type: binary
+        resource: /content/gallery/directaccess/rachel_goodhall_560x670.jpg/rachel_goodhall_560x670.jpg/banner/banner.jpg
+      jcr:lastModified: 2018-07-12T20:10:44.583+01:00
       jcr:mimeType: image/jpeg

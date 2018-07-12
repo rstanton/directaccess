@@ -3,12 +3,26 @@ definitions:
     /hippo:configuration/hippo:translations/hippo:templates/de:
       new-resource-bundle: Neues Resource-Bundle
       new-untranslated-folder: Neuer nicht übersetzter Ordner
+      new-directaccess-imageset-image: Neues Bild
+      new-directaccess-imageset-folder: Neuer Ordner
     /hippo:configuration/hippo:translations/hippo:templates/en:
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
+      new-directaccess-imageset-image: New Image
+      new-directaccess-imageset-folder: new folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
+      new-directaccess-imageset-image: Nouvelle image
+      new-directaccess-imageset-folder: un nouveau dossier
     /hippo:configuration/hippo:translations/hippo:templates/nl:
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
+      new-directaccess-imageset-image: Nieuwe Afbeelding
+      new-directaccess-imageset-folder: nieuwe map
+    /hippo:configuration/hippo:translations/hippo:templates/es:
+      new-directaccess-imageset-image: Nueva imagen
+      new-directaccess-imageset-folder: nueva carpeta
+    /hippo:configuration/hippo:translations/hippo:templates/zh:
+      new-directaccess-imageset-image: 新图片
+      new-directaccess-imageset-folder: 新文件夹
